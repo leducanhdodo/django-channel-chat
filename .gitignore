@@ -1,0 +1,18 @@
+__pycache__/
+*.dump
+*.pyc
+.idea/*
+
+e1_hyperledger/settings/local.py
+
+#logs
+pg_upgrade_internal.log
+pg_upgrade_server.log
+pg_upgrade_utility.log
+
+#Virtual env
+venv/*
+static/*
+
+#TestDB
+db.sqlite3
